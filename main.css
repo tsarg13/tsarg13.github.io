@@ -1,0 +1,214 @@
+html, body {
+	background-color: lightgray;
+	min-height: 100%;
+}
+* {
+	margin: 0;
+}
+p {
+    padding: 20px;
+}
+.wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrapper > * {
+	flex: 1 1 auto;
+}
+
+.header {
+	width: 100%;
+	left: 0;
+	top: 0;	
+	background-color: lightgray;
+}
+
+.navMenu {
+	width: 100%;
+	border-top: 5px solid gray;
+	border-left: 5px solid #404040;
+	border-bottom: 5px solid #404040;
+	background-color: lightgray;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	flex-shrink: 1;
+}
+
+a.navButton:link, a.navButton:visited {
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	color: lightgray;
+	background-color: gray;
+	margin-right: 0.1rem;
+}
+
+a.navButton:hover, a.navButton:active {
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	color: lightgray;
+	background-color: #404040;
+	margin-right: 0.1rem;
+}
+
+a.currentNavButton:link, a.currentNavButton:visited {
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	color: lightgray;
+	background-color: lightgray;
+	margin-right: 0.1rem;
+	background-image:
+		linear-gradient(
+			to bottom,
+			lightgray,
+			#404040
+		);
+}
+
+a.currentNavButton:hover, a.currentNavButton:active {
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	color: lightgray;
+	background-color: #404040;
+	margin-right: 0.1rem;
+	background-image:
+		linear-gradient(
+			to bottom,
+			#404040,
+			lightgray
+		);
+}
+
+.search {
+	margin-left: auto;
+}
+
+
+.main {
+	padding: 30px;
+	font-size: 30px;
+	display: flex;
+	flex: row;
+	text-align: left;
+	background-color: 	lightgray;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+
+}
+.footer {
+	width: 100%;
+	left: 0;
+	position: fixed;
+	bottom: 0;
+	background-color: dimgray;
+}
+
+.aside-1 {
+	width: 100%;
+	height: 100%;
+	background-color: darkgray;
+}
+
+.aside-2 {
+	width: 100%;
+	height: 100%;
+	background-color: darkgray;
+}
+
+.section_1 {
+	width: 100%;
+	background-color: lightgray;
+}
+.section_2 {
+	display: flex;
+	flex: row wrap;
+	background-color: darkgray;
+}
+.location {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: left;
+	padding: 5px;
+}
+.banner {
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: right;
+
+}
+.titleImage {
+	height: 100px;
+	width: 100px;
+	margin-left: auto;
+	float: right;
+}
+
+.icons {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 80px;
+}
+.icons:hover {
+	margin-top: 6px;
+	border-bottom: 5px solid white;
+}
+
+.botBanner {
+	height: 100%;
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.slide {
+	padding: 40px;
+	order: 0;
+	height: 400px;
+	width: 50%;
+	display: flex;
+	flex: row;
+	align-items: center;
+
+}
+.leftButton {
+	width: 50px;
+	height: 40px;
+}
+.rightButton {
+	width: 50px;
+	height: 40px;
+}
+
+.imgBlock {
+	height: 100%;
+}
+
+.article {
+	width: 75%;
+}
+
+.h1 {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: left;
+	padding: 5px;
+}
+
+.selectBox {
+	margin: 10px;
+	padding: 10px;
+}
